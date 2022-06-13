@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Fabricio Monteiro</title>
+</head>
+<body>
+    <header>
+        <!-- Header  -->
+        <div class="header-icon-container">
+            <h2>JS.</h2>
+        </div>
+        <div class="header-links-container">
+            <a href="#projects">projetos</a>
+            <a href="#skills">skills</a>
+            <a href="#contact">contato</a>
+        </div>
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+              <span></span>
+            </label>
+        
+            <ul class="menu__box">
+              <li><a class="menu__item" href="#projects">projetos</a></li>
+              <li><a class="menu__item" href="#skills">skills</a></li>
+              <li><a class="menu__item" href="#contact">contato</a></li>
+              
+            </ul>
+          </div>
+    </header>
+
+    <main>
+        <!-- Main  -->
+        <div class="introduction">
+            <!-- Introdução  -->
+            <h1>Olá, sou <h1 class="title-name">Fabricio Monteiro</h1></h1><br>
+            <h3>um estudante de desenvolvimento Web / Mobile fullstack</h3>
+            <div class="btn-container">
+                <button class="btn-my-github">
+                    <a href="https://github.com/xFabriicioJS"></a>
+                    GitHub
+                </button>
+                <button class="btn-abt-me" href="#aboutme">
+                    mais sobre mim
+                </button>
+            </div>
+
+        </div>
+
+        <div class="skills-title">
+            <!-- Habilidades com as tecnologias -->
+                <h1 id="skills">Skills</h1>
+        </div>
+        <div class="container-posts">        
+            <div class="div-post">HTML</div>
+            <div class="div-post">CSS</div>
+            <div class="div-post">JS</div>
+            <div class="div-post">React</div>
+            <div class="div-post">Next.JS</div>
+            <div class="div-post">React Native</div>
+            <div class="div-post">Node.JS</div>
+            <div class="div-post">Material UI</div>
+            <div class="div-post">Typescript</div>
+            <div class="div-post">Java</div>
+        </div>
+
+        <div class="projects-title">
+            <!-- Projetos já feitos no Github -->
+            <h1>Projetos</h1>
+        </div>
+        <div class="projects" id="projects">
+            <div class="div-project">
+                Projeto Newsletter
+                <p class="post-description">
+                    Uma aplicação newsletter que permite a subscrição de serviçoes por meio da API do Strapi
+                </p>
+                <div class="tecnologias-usadas">
+                    <p>Next.JS</p>
+                    <p>SASS</p>
+                    <p>Typescript</p>
+                </div>
+                <br>
+                <div class="svg-container">
+                    <a href="https://github.com/xFabriicioJS/ignews">
+                        <img class="img-github" src="./src/GitHub-Mark-32px.png" alt="Github"></img>
+                    </a>
+                </div>
+           
+                    
+            </div>
+            <div class="div-project">
+                Projeto controle de Finanças
+                <p class="post-description">
+                    Uma aplicação para controle de finanças pessoais
+                </p>
+                <div class="tecnologias-usadas">
+                    <p>React.JS</p>
+                    <p>SASS</p>
+                    <p>Typescript</p>
+                </div>
+                <br>
+                <div class="svg-container">
+                    <a href="https://github.com/xFabriicioJS/dtmoney">
+                        <img class="img-github" src="./src/GitHub-Mark-32px.png" alt="Github"></img>
+                    </a>
+                </div>
+            </div>
+            <div class="div-project">Projeto controle Finaças - mobile
+                <p class="post-description">
+                    Uma aplicação para controle de finanças pessoais, dessa vez voltado para o mobile.
+                </p>
+                <div class="tecnologias-usadas" id="lastitem">
+                    <p>React Native</p>
+                    <p>Styled-Components</p>
+                    <p>Typescript</p>                     
+                </div>
+                <div class="svg-container">
+                    <a href="#">
+                        <img class="img-github" src="./src/GitHub-Mark-32px.png" alt="Github"></img>
+                    </a>
+                </div>
+            </div>
+        </div>    
+
+        <div id="contact" class="contact">
+            <!-- Contato  -->
+            <h1>Contato</h1>
+            <button class="btn-sendme">
+                <a href="mailto:fabriciocostamonteiro@hotmail.com"></a>
+                me envie um email
+            </button>
+        </div>
+
+        <div id="aboutme" class="aboutme">
+            <!-- Sobre mim  -->
+            <h1>Sobre mim</h1>
+            <p>Me chamo Fabricio Monteiro, tenho 21 anos e iniciei meus estudos em desenvolvimento no ano de 2021, e tenho tentado aperfeiçoar meus conhecimentos desde então.
+                Atualmente faço parte do curso técnico de Informática no Senac Itaquera, 
+                 bem como estudante do primeiro semestre de Análise e Desenvolvimento de Sistemas.
+                Atuo atualmente profissionalmente com um estagiário de Redes de computadores.</p>
+        </div>
+    </main>     
+</body>
+</html>
